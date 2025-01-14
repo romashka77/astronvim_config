@@ -32,6 +32,11 @@ return {
   },
 
   -- == Examples of Overriding Plugins ==
+  {
+    "akinsho/bufferline.nvim",
+    version = "*",
+    dependencies = "nvim-tree/nvim-web-devicons",
+  },
 
   { -- optional saghen/blink.cmp completion source
     "saghen/blink.cmp",
